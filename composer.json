@@ -7,13 +7,15 @@
     "type": "yii2-extension",
     "description": "Left-Right value method to sort, to level records.Usage a bit like jQuery---js framework",
     "suggests": "Use InnoDB engine for the db",
-    "author": {
-        "name": "Felix Huang",
-        "email": "yelfivehuang@gmail.com",
-        "hompage": "",
-        "role": "PHPer",
-        "marriage": "married"    
-    },
+    "authors": [
+        {
+            "name": "Felix Huang",
+            "email": "yelfivehuang@gmail.com",
+            "hompage": "",
+            "role": "PHPer",
+            "marriage": "married"    
+        }
+    ],
     "autoload": {
         "psr-4": {
             "fk\\sort\\": "src"
