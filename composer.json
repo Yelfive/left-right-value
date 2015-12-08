@@ -12,6 +12,8 @@
         "marriage": "married"    
     },
     "autoload": {
-        "psr-4": 
+        "psr-4": {
+            "fk\\sort": "src"
+        }
     }
 }
