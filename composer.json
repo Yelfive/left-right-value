@@ -1,27 +1,28 @@
 {
     "name": "fk/sort",
-    "version": "1.0.0",
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.3.0",
-        "yiisoft/yii2": "*"
-    },
-    "license": "MIT",
     "type": "yii2-extension",
-    "description": "Left-Right value method to sort, to level records.Usage a bit like jQuery---js framework",
-    "suggests": "Use InnoDB engine for the db",
+    "description": "The wechat api for the Yii2 framework",
+    "keywords": ["yii2", "wechat", "weixin", "sdk"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/xfstudio/yii2-wechat/issues",
+        "wiki": "https://github.com/xfstudio/yii2-wechat/wiki",
+        "source": "https://github.com/xfstudio/yii2-wechat"
+    },
     "authors": [
         {
-            "name": "Felix Huang",
-            "email": "yelfivehuang@gmail.com",
-            "hompage": "",
-            "role": "PHPer",
-            "marriage": "married"    
+            "name": "CallMeZ(Windy)",
+            "email": "xfolstudio@gmail.com",
+            "homepage": "http://xf.sc.cn/",
+            "role": "Updater"
         }
     ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
     "autoload": {
         "psr-4": {
-            "fk\\sort\\": "src"
+            "xfstudio\\wechat\\": ""
         }
     }
 }
