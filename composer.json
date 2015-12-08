@@ -3,7 +3,7 @@
     "require": {
         "php": ">=5.3.0"
     },
-    "minimum-stability": "dev",
+    "type": "yii-extension",
     "description": "Left-Right value method to sort, to level records.Usage a bit like jQuery---js framework",
     "suggests": "Use InnoDB engine for the db",
     "author": {
