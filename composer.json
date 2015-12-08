@@ -1,0 +1,17 @@
+{
+    "name": "fk/sort",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "description": "Left-Right value method to sort, to level records.Usage a bit like jQuery---js framework",
+    "author": {
+        "name": "Felix Huang",
+        "email": "yelfivehuang@gmail.com",
+        "hompage": "",
+        "role": "PHPer",
+        "marriage": "married"    
+    },
+    "autoload": {
+        "psr-4": 
+    }
+}
